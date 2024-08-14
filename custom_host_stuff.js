@@ -181,19 +181,20 @@ const default_pinned_websites = [
 ]
 
 const dummy_history = [
-    "https://es7in1.site/ps5",
     "https://google.com",
+    "https://es7in1.site/ps5",
     "https://ps5jb.pages.dev",
-    "https://github.com",
-    "https://duckduckgo.com",
+    "https://pkg-zone.com",
+//  "https://duckduckgo.com",
+    "https://netflix.com",
     "https://youtube.com",
     "https://twitter.com",
     "https://reddit.com",
-    "https://facebook.com",
-    "https://instagram.com",
-    "https://amazon.com",
-    "https://wikipedia.org",
-    "https://netflix.com"
+    "https://github.com",
+//  "https://facebook.com",
+//  "https://instagram.com",
+//  "https://amazon.com",
+    "https://wikipedia.org"
 ]
 
 function create_redirector_buttons() {
