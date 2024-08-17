@@ -3,7 +3,7 @@ const payload_map = [
         displayTitle: 'etaHEN-1.8B',
         description: 'etaHEN-1.8B',
         fileName: 'etaHEN-1.8B.bin',
-        author: '-',
+        author: 'LightningMods',
         source: '-', 
         version: '-' 
     }
@@ -49,6 +49,33 @@ const payload_map = [
         description: 'ftps5-p',
         fileName: 'ftps5-p.elf',
         author: '-',
+        source: '-', 
+        version: '-' 
+    }
+,
+    {
+        displayTitle: 'ftpsrv',
+        description: 'ftpsrv',
+        fileName: 'ftpsrv.elf',
+        author: 'john-tornblom',
+        source: '-', 
+        version: '-' 
+    }
+,
+    {
+        displayTitle: 'websrv',
+        description: 'websrv',
+        fileName: 'websrv.elf',
+        author: 'john-tornblom',
+        source: '-', 
+        version: '-' 
+    }
+,
+    {
+        displayTitle: 'shsrv',
+        description: 'shsrv',
+        fileName: 'shsrv.elf',
+        author: 'john-tornblom',
         source: '-', 
         version: '-' 
     }
