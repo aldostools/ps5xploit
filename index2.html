@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="main.css">
 
-    <script defer src="int64.js"></script>
-    <script defer src="rop.js"></script>
-    <script defer src="exploit.js"></script>
-    <script defer src="payload_map.js"></script>
-    <script defer src="custom_host_stuff.js"></script>
-    <script defer src="appcache_handler.js"></script>
-    <script defer src="utils.js"></script>
-    <script defer src="constants.js"></script>
-    <script defer src="int64x.js"></script>
-    <script defer src="mem.js"></script>
-    <script defer src="memtools.js"></script>
-    <script defer src="rw.js"></script>
-    <script defer src="webkit_psfree.js"></script>
-    <script defer src="webkit_fontface.js"></script>
+    <script defer src="js/int64.js"></script>
+    <script defer src="js/rop.js"></script>
+    <script defer src="js/exploit.js"></script>
+    <script defer src="js/payload_map.js"></script>
+    <script defer src="js/custom_host_stuff.js"></script>
+    <script defer src="js/appcache_handler.js"></script>
+    <script defer src="js/utils.js"></script>
+    <script defer src="js/constants.js"></script>
+    <script defer src="js/int64x.js"></script>
+    <script defer src="js/mem.js"></script>
+    <script defer src="js/memtools.js"></script>
+    <script defer src="js/rw.js"></script>
+    <script defer src="js/webkit_psfree.js"></script>
+    <script defer src="js/webkit_fontface.js"></script>
     <script>
         addEventListener('unhandledrejection', (event) => {
             const reason = event.reason;
@@ -171,7 +171,7 @@
         </div>
     </div>
     <script>
-        const images = ["cross.png", "circle.png", "triangle.png", "square.png"]
+        const images = ["img/cross.png", "img/circle.png", "img/triangle.png", "img/square.png"]
 
         let firstImage = document.createElement("img"),
             secondImage = document.createElement("img"),
