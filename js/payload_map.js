@@ -72,6 +72,15 @@ const payload_map = [
     }
 ,
     {
+        displayTitle: 'klogsrv',
+        description: 'klogsrv',
+        fileName: 'klogsrv.elf',
+        author: 'john-tornblom',
+        source: '-', 
+        version: '-' 
+    }
+,
+    {
         displayTitle: 'shsrv',
         description: 'shsrv',
         fileName: 'shsrv.elf',
